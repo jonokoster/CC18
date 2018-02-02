@@ -25,5 +25,20 @@ Lists
  - Item 2
  - Item 3
  
- Link [google](http://www.google.com)
+ Link [Google](http://www.google.com)
 
+```Javascript
+gs.eventQueue("discovery.phase.complete", current);
+checkNextPhaseOrComplete();
+
+function checkNextPhaseOrComplete() {
+    var dp = new DiscoveryPhaser(current);
+    if (dp.hasNextPhase())
+        return;
+
+    current.state = "Completed";
+    current.update();
+    var d = new Discovery();
+    d.completed();
+}
+```
