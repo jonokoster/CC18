@@ -27,7 +27,7 @@ Lists
  
  Link [Google](http://www.google.com)
 
-```Javascript
+```javascript
 gs.eventQueue("discovery.phase.complete", current);
 checkNextPhaseOrComplete();
 
