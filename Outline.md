@@ -1,16 +1,12 @@
-# My Outline
+# Time Travel with Operational Intelligence
 
-Step 1  
-Next line
-
-Step 2
-
-## Second heading
+## Outline
 
 Operational intelligence
-Configure an instance to monitor a server
-Simulate high CPU usage.
-Have the student instances create an incident.
+- Configure an instance to receive alerts about a server
+- learn a pattern. (event managment?)
+- Simulate high CPU/mem usage.
+- Have the student instances create an incident.
 
 > Quote
 
