@@ -42,4 +42,9 @@ function checkNextPhaseOrComplete() {
     d.completed();
 }
 ```
+
 ![alt text](https://github.com/jonokoster/CC18/raw/master/Image1.png "Logo Title Text 1")
+
+<kbd>
+  <img src="https://github.com/jonokoster/CC18/raw/master/Image1.png">
+</kbd>
